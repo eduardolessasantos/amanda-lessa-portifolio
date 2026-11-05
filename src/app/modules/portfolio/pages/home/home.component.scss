@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  min-height: 100vh;
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 20px;
+    font-family: inherit;
+    color: var(--grey);
+    font-size: 13px;
+  }
+}

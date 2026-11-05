@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#161622"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2fbf71"/>
+      <stop offset="100%" stop-color="#06628a"/>
+    </linearGradient>
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#circleClip)">
+    <!-- Fundo -->
+    <rect width="200" height="200" fill="url(#bgGrad)"/>
+    
+    <!-- Aura sutil de destaque -->
+    <circle cx="100" cy="90" r="75" fill="url(#accentGrad)" opacity="0.25"/>
+
+    <!-- Cabelo por trás -->
+    <path d="M50 100 C50 60 70 32 100 32 C130 32 150 60 150 100 C150 135 140 160 140 160 C125 148 115 145 100 145 C85 145 75 148 60 160 C60 160 50 135 50 100 Z" fill="#3d2314"/>
+
+    <!-- Pescoço -->
+    <path d="M88 110 L112 110 L115 140 L85 140 Z" fill="#e8beac"/>
+    
+    <!-- Sombra do queixo -->
+    <ellipse cx="100" cy="115" rx="14" ry="5" fill="#d49e8b" opacity="0.6"/>
+
+    <!-- Rosto -->
+    <ellipse cx="100" cy="85" rx="34" ry="40" fill="#f7d0bf"/>
+
+    <!-- Cabelo estilizado -->
+    <path d="M66 82 C64 52 78 40 100 40 C122 40 136 52 134 82 C134 94 130 110 128 120 C124 100 122 75 110 65 C100 56 80 62 72 120 C70 110 66 94 66 82 Z" fill="#54311c"/>
+    <path d="M68 65 C78 50 100 48 118 60 C110 52 90 48 76 56 Z" fill="#6d4025"/>
+
+    <!-- Olhos sutis e sobrancelhas -->
+    <ellipse cx="88" cy="84" rx="3.5" ry="4" fill="#302217"/>
+    <ellipse cx="112" cy="84" rx="3.5" ry="4" fill="#302217"/>
+    <circle cx="89" cy="83" r="1.2" fill="#ffffff"/>
+    <circle cx="113" cy="83" r="1.2" fill="#ffffff"/>
+    <path d="M82 77 Q88 74 94 77" stroke="#42291a" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M106 77 Q112 74 118 77" stroke="#42291a" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+    <!-- Nariz sutil e Sorriso -->
+    <path d="M99 87 L100 92 L103 93" stroke="#d49e8b" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M92 99 Q100 106 108 99" stroke="#b2535d" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Blusa / Roupa corporativa elegante -->
+    <path d="M40 200 L48 152 Q70 138 100 138 Q130 138 152 152 L160 200 Z" fill="#1b4d3e"/>
+    <!-- Gola branca interna -->
+    <polygon points="100,162 82,138 118,138" fill="#ffffff"/>
+    <polygon points="100,165 92,138 108,138" fill="#e8beac"/>
+    <!-- Blazer decote V -->
+    <path d="M82 138 L100 178 L118 138 L136 150 L124 200 L76 200 L64 150 Z" fill="#0d2b23"/>
+  </g>
+</svg>
